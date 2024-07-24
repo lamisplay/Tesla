@@ -1,0 +1,441 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* color: aliceblue; */
+    font-family:"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto Ubuntu ,sans-serif;
+}
+body{
+    position: relative;
+    background-color: gray;
+    width: 100%;
+    height: 100vh;;
+}
+header{
+    width:100%;
+    background-color: rgb(11, 11, 71);
+    color: rgb(255, 255, 255);
+    font-size: 160%;
+    text-align: center;
+    height: 60px;
+    padding-top: 25px;
+    position:fixed;
+    
+}
+header a{
+    color: aliceblue;
+}
+.logo{
+    margin-top: 1px;
+    /* background-color: rgb(255, 255, 255); */
+    max-width: fit-content;
+    display: flex;
+    padding-left: 60px;
+    position: fixed;
+    padding-top: 110px;
+}
+.firstul{
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left:55%;
+    gap: 100px;
+}
+.firstul li {
+    list-style: none;
+}
+.firstul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.vid video{
+    height: 100vh;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+}
+.fgh a{
+    color: rgba(240, 248, 255, 0.756);
+    padding-left: 39%;
+     font-size: 100%;
+}
+.show{
+    position: absolute;
+    top: 20%;
+    right:42%;
+    font-size: 150%;
+    color: aliceblue;
+}
+.show h1{
+   padding-left: 70px;
+}
+.show p{
+    padding-left: 70px;
+}
+.show2{
+    position: absolute;
+    top: 83%;
+    right:43%;
+    color: black;
+    justify-content: space-between;
+    width: 300px;
+    height: 4vh;
+    display: flex;
+    gap: 20px;
+}
+.second{
+    width: 500px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+    cursor: alias;
+}
+.first{
+    width: 500px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.511);
+    border-radius: 10px;
+    cursor: alias;
+}
+.show3{
+    position: absolute;
+    top: 88%;
+    right: 29%;
+    color: rgba(255, 255, 255, 0.852);
+    font-size: 140%;
+}
+.number2{
+    padding: 0px;
+    margin: 0px;
+}
+.page2 img{
+    height: 100vh;
+    width:100%;
+    background-size:cover;
+    object-fit:cover;
+}
+.hm2{
+    position: absolute;
+    top: 125%;
+    right: 42%;
+    font-size: 170%;
+    color: rgb(10, 10, 82);
+}
+.hm2 p{
+    padding-left: 35px;
+}
+.tee{position: absolute;
+      top: 186%;
+    right: 43%;
+    color: black;
+    justify-content: space-between;
+    width: 300px;
+    height: 4vh;
+    display: flex;
+    gap: 20px;
+}
+.lam{
+    width: 500px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.893);
+    border-radius: 10px;
+    cursor: alias;
+}
+.anj{
+    width: 500px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+    cursor: alias;
+}
+.di a{color: rgb(16, 7, 63);}
+
+.di{
+    position: absolute;
+    top: 192%;
+    right:34%;
+    font-size: 140%;
+}
+.number3{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+}
+.page3 img{
+    height: 100vh;
+    width:100%;
+    background-size:cover;
+    object-fit:cover;
+}
+.hm3{
+    position: absolute;
+    top: 220%;
+    right: 43%;
+}
+.hm3 h1{
+    font-size: 60px;
+    padding-left: 10%;
+}
+.hm3 p{
+    font-size: 40px;
+    padding-left: 10%;
+}
+.riri{
+    position: absolute;
+    top: 280%;
+    right: 44%;
+    display: flex;
+    gap:5%;
+    border-radius: 3px;
+}
+.jb{
+    height: 40px;
+    width: 100%;
+    border-radius: 13%;
+}
+.bj{
+    border-radius: 13%;
+    height: 40px;
+    width: 160px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.331);
+}
+.sdiv h5{
+    position: absolute;
+    top: 290%;
+    right: 24%;
+    font-size: 140%;
+}
+
+.number4{
+    padding: 0%;
+    margin: 0%;
+}
+.page4 img{
+    height: 100vh;
+    width: 100%;
+}
+.hm4{
+    position: absolute;
+    top: 320%;
+    right: 46%;
+    font-size: 210%;
+}
+.hm4 p {
+    font-size: 90%;
+    padding-left: 10%;
+}
+.kate{
+    position: absolute;
+    top: 390%;
+    right: 45%;
+    display: flex;
+    gap: 10%;
+}
+.noj h5 {
+    position: absolute;
+    top: 395%;
+    right: 31%;
+    font-size: 120%;
+}
+.page5 img {
+    width: 100%;
+    height: 100vh;
+}
+.major{
+    position: absolute;
+    top: 485%;
+    right: 40%;
+    display: flex;
+     gap: 14%;}
+.kk{
+    width: 240px;
+    height: 9vh;
+    font-size: 200%;
+    border-radius: 8%;
+}
+.kkk{
+    width: 240px;
+    height: 9vh;
+    font-size: 200%;
+    border-radius: 8%;
+    background-color: rgba(0, 0, 0, 0.868);
+    color: aliceblue;
+}
+.number6{
+    padding: 0px;
+    margin: 0px;
+}
+.page6 img{
+    width: 100%;
+    height: 100vh;
+}.ret{
+    position: absolute;
+    top:515%;
+    right: 40%;
+    font-size: 60px;
+    color: aliceblue;
+}
+.ret p {font-size: 50%;
+   padding-left: 10%;
+}
+.hy{
+    position: absolute;
+    top:585%;
+    right: 55%;
+    color: aliceblue;
+}
+.hy  button{
+    height: 4vh;
+    width: 600%;
+    border-radius:1%;
+    font-size: 100%;
+    background-color: rgb(61, 61, 61);
+    color: aliceblue;
+}
+.number7{
+    margin: 0px;
+    padding: 0px;
+}
+.page7 img{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.val{
+    position: absolute;
+    font-size: 400%;
+    top:620%;
+    color: aliceblue;
+    right: 40%;
+}
+.hk{
+    position: absolute;
+    top:630%;
+    right:42%;
+    font-size: 200%;
+    color: aliceblue;
+} 
+.hk a{
+    color: aliceblue;
+}
+.minor{
+    position: absolute;
+    top:680%;
+    right: 39%;
+    display: flex;
+    gap: 12%;
+}
+.page8 img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.cent{
+    position: absolute;
+    font-size:230%;
+    top:720%;
+    right: 43%;
+    color: rgb(46, 31, 31)
+}
+.wet{
+    position: absolute;
+    top: 727%;
+    right: 40%;
+    font-size: 160%;
+}
+.fg{
+    position: absolute;
+    top: 780%;
+    right: 36%;
+    gap:10%;
+    display: flex;
+    color: aliceblue;
+}
+.fg button{
+    height:6vh;
+    width:260px;
+    border-radius:8%;
+    font-size: 160%;
+    background-color: rgba(89, 36, 36, 0.751);
+    color: aliceblue;
+}
+.number9{
+    padding: 0px;
+    margin: 0px;
+}
+.page9 img{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.hi9{
+    position: absolute;
+    top: 817%;
+    right:44%;
+    color: aliceblue;
+    font-size: 320%;
+}
+.semi{
+    position: absolute;
+    top: 888%;
+    right: 28%;
+    gap:2%;
+    display: flex;
+    width: 30%;
+}
+.semi button{
+    height: 5vh;
+    width: 25%;
+    font-size: 130%;
+    border-radius:8%;
+}
+.mi{
+    background-color: rgba(128, 128, 128, 0.616);
+    color: aliceblue;
+}
+.number10{
+    margin: 0%;
+    padding: 0%;
+}
+.page10 img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.finaly{
+    position: absolute;
+    top: 924%;
+    font-size:280%;
+    right: 40%;
+    color: rgb(0, 0, 0);
+}
+.fin{
+    position: absolute;
+    top: 980%;
+    right: 50%;
+}
+.fina{
+    height: 6vh;
+    width:310%;
+    font-size: 190%;
+    border-radius: 9%;
+    background-color: rgba(243, 255, 251, 0.785);
+}
+.lass{
+    position: absolute;
+     top: 989%;
+    justify-content: space-between;
+    gap:40px;
+    right: 30%;
+    font-size: 120%;
+    display: flex;
+    color: rgba(240, 248, 255, 0.283);
+    text-decoration: none;
+}
+.lass a {
+     color: rgba(240, 248, 255, 0.774);
+     justify-content: space-between;
+     gap:30px;
+     text-decoration: none;
+}
